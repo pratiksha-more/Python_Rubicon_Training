@@ -34,6 +34,9 @@ print("Is 3 in tuple1? ", 3 in tuple1)
 print("Is 'A' in tuple2? ", "A" in tuple2)
 
 
+print("Count", tuple1.count(2))  # Count occurrences of an element
+  
+
 #Remove
 del tuple1
 #print(tuple1)
