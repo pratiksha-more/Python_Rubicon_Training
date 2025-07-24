@@ -30,8 +30,13 @@ list4 = [10,80, 30, 90, 50,'A', 'B', 'C', 'D', 10.5, 10+5j]
 list1.sort()
 list2.sort()
 list3.sort()
-list4.sort()
+#list4.sort()
 print("List1 after sorting: ", list1)
 print("List2 after sorting: ", list2)
 print("List3 after sorting: ", list3)
-print("List4 after sorting: ", list4)
+#print("List4 after sorting: ", list4)
+
+print("Extend ", list1.extend(list2))
+
+print("List1 after Extend: ", list1)
+print("List2 after Extend : ", list2)
